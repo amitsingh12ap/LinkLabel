@@ -15,6 +15,7 @@
 		B352030125132E89002F40FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35202FF25132E89002F40FD /* LaunchScreen.storyboard */; };
 		B352030C25132E89002F40FD /* LinkLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352030B25132E89002F40FD /* LinkLabelTests.swift */; };
 		B352031725132E89002F40FD /* LinkLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352031625132E89002F40FD /* LinkLabelUITests.swift */; };
+		B352032525132F6D002F40FD /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352032425132F6D002F40FD /* ClickableLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B352031225132E89002F40FD /* LinkLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B352031625132E89002F40FD /* LinkLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLabelUITests.swift; sourceTree = "<group>"; };
 		B352031825132E89002F40FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B352032425132F6D002F40FD /* ClickableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B35202F425132E87002F40FD /* AppDelegate.swift */,
 				B35202F625132E87002F40FD /* SceneDelegate.swift */,
 				B35202F825132E87002F40FD /* ViewController.swift */,
+				B352032425132F6D002F40FD /* ClickableLabel.swift */,
 				B35202FA25132E87002F40FD /* Main.storyboard */,
 				B35202FD25132E89002F40FD /* Assets.xcassets */,
 				B35202FF25132E89002F40FD /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35202F925132E87002F40FD /* ViewController.swift in Sources */,
+				B352032525132F6D002F40FD /* ClickableLabel.swift in Sources */,
 				B35202F525132E87002F40FD /* AppDelegate.swift in Sources */,
 				B35202F725132E87002F40FD /* SceneDelegate.swift in Sources */,
 			);
